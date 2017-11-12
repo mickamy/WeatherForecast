@@ -1,0 +1,190 @@
+[
+  {
+		"name": "北海道",
+		"en": "hokkaido"
+	},
+	{
+		"name": "青森県",
+		"en": "aomori"
+	},
+	{
+		"name": "岩手県",
+		"en": "iwate"
+	},
+	{
+		"name": "宮城県",
+		"en": "miyagi"
+	},
+	{
+		"name": "秋田県",
+		"en": "akita"
+	},
+	{
+		"name": "山形県",
+		"en": "yamagata"
+	},
+	{
+		"name": "福島県",
+		"en": "fukushima"
+	},
+	{
+		"name": "茨城県",
+		"en": "ibaraki"
+	},
+	{
+		"name": "栃木県",
+		"en": "tochigi"
+	},
+	{
+		"name": "群馬県",
+		"en": "gunma"
+	},
+	{
+		"name": "埼玉県",
+		"en": "saitama"
+	},
+	{
+		"name": "千葉県",
+		"en": "chiba"
+	},
+	{
+		"name": "東京都",
+		"en": "tokyo"
+	},
+	{
+		"name": "神奈川県",
+		"en": "kanagawa"
+	},
+	{
+		"name": "新潟県",
+		"en": "niigata"
+	},
+	{
+		"name": "富山県",
+		"en": "toyama"
+	},
+	{
+		"name": "石川県",
+		"en": "ishikawa"
+	},
+	{
+		"name": "福井県",
+		"en": "fukui"
+	},
+	{
+		"name": "山梨県",
+		"en": "yamanashi"
+	},
+	{
+		"name": "長野県",
+		"en": "nagano"
+	},
+	{
+		"name": "岐阜県",
+		"en": "gifu"
+	},
+	{
+		"name": "静岡県",
+		"en": "shizuoka"
+	},
+	{
+		"name": "愛知県",
+		"en": "aichi"
+	},
+	{
+		"name": "三重県",
+		"en": "mie"
+	},
+	{
+		"name": "滋賀県",
+		"en": "shiga"
+	},
+	{
+		"name": "京都府",
+		"en": "kyoto"
+	},
+	{
+		"name": "大阪府",
+		"en": "osaka"
+	},
+	{
+		"name": "兵庫県",
+		"en": "hyogo"
+	},
+	{
+		"name": "奈良県",
+		"en": "nara"
+	},
+	{
+		"name": "和歌山県",
+		"en": "wakayama"
+	},
+	{
+		"name": "鳥取県",
+		"en": "tottori"
+	},
+	{
+		"name": "島根県",
+		"en": "shimane"
+	},
+	{
+		"name": "岡山県",
+		"en": "okayama"
+	},
+	{
+		"name": "広島県",
+		"en": "hiroshima"
+	},
+	{
+		"name": "山口県",
+		"en": "yamaguchi"
+	},
+	{
+		"name": "徳島県",
+		"en": "tokushima"
+	},
+	{
+		"name": "香川県",
+		"en": "kagawa"
+	},
+	{
+		"name": "愛媛県",
+		"en": "ehime"
+	},
+	{
+		"name": "高知県",
+		"en": "kochi"
+	},
+	{
+		"name": "福岡県",
+		"en": "fukuoka"
+	},
+	{
+		"name": "佐賀県",
+		"en": "saga"
+	},
+	{
+		"name": "長崎県",
+		"en": "nagasaki"
+	},
+	{
+		"name": "熊本県",
+		"en": "kumamoto"
+	},
+	{
+		"name": "大分県",
+		"en": "oita"
+	},
+	{
+		"name": "宮崎県",
+		"en": "miyazaki"
+	},
+	{
+		"name": "鹿児島県",
+		"en": "kagoshima"
+	},
+	{
+		"name": "沖縄県",
+		"en": "okinawa"
+	}
+]
