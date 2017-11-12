@@ -26,11 +26,18 @@ function getCurrentWeather(city: *)
     .then(json => new CurrentWeather(json));
 }
 
-function getWeatherForecastEndpoint(query: string) {
-  return `${BASE_URL}forecast?q=${query}&appid=${API_KEY}&lang=ja`;
+function getWeatherForecastEndpoint(city: *) {
+  const { en, latitude, longitude } = city;
+  if (latitude && longitude) {
+    return `${BASE_URL}forecast`
+      + `?lat=${latitude}&lon=${longitude}`
+      + `&appid=${API_KEY}&lang=ja`;
+  }
+  return `${BASE_URL}forecast?q=${en}&appid=${API_KEY}&lang=ja`;
 }
 
-function getWeatherForecast(city: string): Promise<WeatherForecast[]> {
+
+function getWeatherForecast(city: *): Promise<WeatherForecast[]> {
   const endpoint = getWeatherForecastEndpoint(city);
   return fetch(endpoint)
     .then(response => response.json())
