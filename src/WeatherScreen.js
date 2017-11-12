@@ -9,6 +9,8 @@ import {
   StyleSheet,
   FlatList,
 } from 'react-native';
+import { type NavigationScreenProp }
+  from 'react-navigation/src/TypeDefinition';
 import ForecastListItem from './ForecastListItem';
 import CurrentWeather from './CurrentWeather';
 import WeatherForecast from './WeatherForecast';
@@ -17,22 +19,34 @@ import {
   getWeatherForecast,
 } from './WeatherService';
 
+type Props = {
+  navigation: NavigationScreenProp<*>,
+};
+
 type State = {
   current: ?CurrentWeather,
   forecasts: WeatherForecast[],
 };
 
-class WeatherScreen extends Component<{}, State> {
-  constructor(props: {}) {
+class WeatherScreen extends Component<Props, State> {
+  static navigationOptions = ({ navigation }) => {
+    const { city } = navigation.state.params;
+    return {
+      title: `${city.name}の天気`,
+    };
+  }
+
+  constructor(props: Props) {
     super(props);
     this.state = { current: null, forecasts: [] };
   }
 
   componentDidMount() {
-    const tokyo = 'Tokyo';
-    getCurrentWeather(tokyo)
+    const { navigation } = this.props;
+    const { city } = navigation.state.params;
+    getCurrentWeather(city.en)
       .then(current => this.setState({ current }));
-    getWeatherForecast(tokyo)
+    getWeatherForecast(city.en)
       .then(forecasts =>
         this.setState({ forecasts }));
   }
