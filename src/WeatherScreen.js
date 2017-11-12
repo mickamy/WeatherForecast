@@ -1,7 +1,13 @@
 // @flow
 
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import {
+  View,
+  Text,
+  Image,
+  ActivityIndicator,
+  StyleSheet,
+} from 'react-native';
 import CurrentWeather from './CurrentWeather';
 import { getCurrentWeather } from './WeatherService';
 
@@ -25,15 +31,42 @@ class WeatherScreen extends Component<{}, State> {
 
   render() {
     const { current } = this.state;
-    console.log('render', current);
+    if (current == null) {
+      return (
+        <View style={styles.container}>
+          <ActivityIndicator />
+        </View>
+      );
+    }
+    const { main, iconURL } = current;
     return (
-      <View>
-        <Text>
-          {current ? JSON.stringify(current) : ''}
+      <View style={styles.container}>
+        <Text style={styles.text}>
+          {main}
         </Text>
+        <Image
+          source={{ uri: iconURL }}
+          style={styles.icon}
+        />
       </View>
     );
   }
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  text: {
+    fontSize: 20,
+    marginVertical: 8,
+  },
+  icon: {
+    width: 100,
+    height: 100,
+  },
+});
 
 export default WeatherScreen;
