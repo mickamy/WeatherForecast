@@ -6,11 +6,18 @@ import {
   FlatList,
   StyleSheet,
 } from 'react-native';
+import { type NavigationScreenProp }
+  from 'react-navigation/src/TypeDefinition';
 import CITIES from './cities.json';
 
-class CityListScreen extends Component<{}> {
+type Props = {
+  navigation: NavigationScreenProp<*>,
+}
+
+class CityListScreen extends Component<Props> {
   onPress(item: *) {
-    console.log('onPress', item);
+    const { navigation } = this.props;
+    navigation.navigate('Weather', { city: item });
   }
 
   render() {
