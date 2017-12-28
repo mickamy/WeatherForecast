@@ -1,190 +1,190 @@
 [
   {
 		"name": "北海道",
-		"en": "hokkaido"
+		"en": "Hokkaidō"
 	},
 	{
 		"name": "青森県",
-		"en": "aomori"
+		"en": "Aomori-ken"
 	},
 	{
 		"name": "岩手県",
-		"en": "iwate"
+		"en": "Iwate-ken"
 	},
 	{
 		"name": "宮城県",
-		"en": "miyagi"
+		"en": "Miyagi-ken"
 	},
 	{
 		"name": "秋田県",
-		"en": "akita"
+		"en": "Akita-ken"
 	},
 	{
 		"name": "山形県",
-		"en": "yamagata"
+		"en": "Yamagata-ken"
 	},
 	{
 		"name": "福島県",
-		"en": "fukushima"
+		"en": "Fukushima-ken"
 	},
 	{
 		"name": "茨城県",
-		"en": "ibaraki"
+		"en": "Ibaraki-ken"
 	},
 	{
 		"name": "栃木県",
-		"en": "tochigi"
+		"en": "Tochigi-ken"
 	},
 	{
 		"name": "群馬県",
-		"en": "gunma"
+		"en": "Gunma-ken"
 	},
 	{
 		"name": "埼玉県",
-		"en": "saitama"
+		"en": "Saitama-ken"
 	},
 	{
 		"name": "千葉県",
-		"en": "chiba"
+		"en": "Chiba-ken"
 	},
 	{
 		"name": "東京都",
-		"en": "tokyo"
+		"en": "Tōkyō-to"
 	},
 	{
 		"name": "神奈川県",
-		"en": "kanagawa"
+		"en": "Kanagawa-ken"
 	},
 	{
 		"name": "新潟県",
-		"en": "niigata"
+		"en": "Niigata-ken"
 	},
 	{
 		"name": "富山県",
-		"en": "toyama"
+		"en": "Toyama-ken"
 	},
 	{
 		"name": "石川県",
-		"en": "ishikawa"
+		"en": "Ishikawa-ken"
 	},
 	{
 		"name": "福井県",
-		"en": "fukui"
+		"en": "Fukui-ken"
 	},
 	{
 		"name": "山梨県",
-		"en": "yamanashi"
+		"en": "Yamanashi-ken"
 	},
 	{
 		"name": "長野県",
-		"en": "nagano"
+		"en": "Nagano-ken"
 	},
 	{
 		"name": "岐阜県",
-		"en": "gifu"
+		"en": "Gifu-ken"
 	},
 	{
 		"name": "静岡県",
-		"en": "shizuoka"
+		"en": "Shizuoka-ken"
 	},
 	{
 		"name": "愛知県",
-		"en": "aichi"
+		"en": "Aichi-ken"
 	},
 	{
 		"name": "三重県",
-		"en": "mie"
+		"en": "Mie-ken"
 	},
 	{
 		"name": "滋賀県",
-		"en": "shiga"
+		"en": "Shiga-ken"
 	},
 	{
 		"name": "京都府",
-		"en": "kyoto"
+		"en": "Kyōto-fu"
 	},
 	{
 		"name": "大阪府",
-		"en": "osaka"
+		"en": "Ōsaka-fu"
 	},
 	{
 		"name": "兵庫県",
-		"en": "hyogo"
+		"en": "Hyōgo-ken"
 	},
 	{
 		"name": "奈良県",
-		"en": "nara"
+		"en": "Nara-ken"
 	},
 	{
 		"name": "和歌山県",
-		"en": "wakayama"
+		"en": "Wakayama-ken"
 	},
 	{
 		"name": "鳥取県",
-		"en": "tottori"
+		"en": "Tottori-ken"
 	},
 	{
 		"name": "島根県",
-		"en": "shimane"
+		"en": "Shimane-ken"
 	},
 	{
 		"name": "岡山県",
-		"en": "okayama"
+		"en": "Okayama-ken"
 	},
 	{
 		"name": "広島県",
-		"en": "hiroshima"
+		"en": "Hiroshima-ken"
 	},
 	{
 		"name": "山口県",
-		"en": "yamaguchi"
+		"en": "Yamaguchi-ken"
 	},
 	{
 		"name": "徳島県",
-		"en": "tokushima"
+		"en": "Tokushima-ken"
 	},
 	{
 		"name": "香川県",
-		"en": "kagawa"
+		"en": "Kagawa-ken"
 	},
 	{
 		"name": "愛媛県",
-		"en": "ehime"
+		"en": "Ehime-ken"
 	},
 	{
 		"name": "高知県",
-		"en": "kochi"
+		"en": "Kōchi-ken"
 	},
 	{
 		"name": "福岡県",
-		"en": "fukuoka"
+		"en": "Fukuoka-ken"
 	},
 	{
 		"name": "佐賀県",
-		"en": "saga"
+		"en": "Saga-ken"
 	},
 	{
 		"name": "長崎県",
-		"en": "nagasaki"
+		"en": "Nagasaki-ken"
 	},
 	{
 		"name": "熊本県",
-		"en": "kumamoto"
+		"en": "Kumamoto-ken"
 	},
 	{
 		"name": "大分県",
-		"en": "oita"
+		"en": "Ōita-ken"
 	},
 	{
 		"name": "宮崎県",
-		"en": "miyazaki"
+		"en": "Miyazaki-ken"
 	},
 	{
 		"name": "鹿児島県",
-		"en": "kagoshima"
+		"en": "Kagoshima-ken"
 	},
 	{
 		"name": "沖縄県",
-		"en": "okinawa"
+		"en": "Okinawa-ken"
 	}
 ]
